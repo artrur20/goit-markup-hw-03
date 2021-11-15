@@ -14,6 +14,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+header {
+    background-color: var(--main-title-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -23,12 +28,13 @@ button {
     cursor: pointer;
 }
 
-.hero {
-    background-color: #2F303A;
+.conteiner {
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
-.hero-btn {
-    background-color: #2196F3;
-}
+
 
 .list {
     list-style: none;
@@ -38,12 +44,37 @@ button {
     text-decoration: none;
 }
 
+.heder-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.header-address {
+    display: flex;
+    margin-left: auto;
+    margin-left: 331px;
+}
+
+.header-address-item {
+    margin-right: 50px;
+}
+.header-address-item:last-child {
+    margin-right: 0;
+}
+
 .header-logo {
     color: var(--logo-hover-color);
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
     font-family: 'raleway';
+    margin-right: 93px;
+    margin-left: 215px;
 }
 .header-studio {
     color: var(--second-title-color);
@@ -52,6 +83,20 @@ button {
     line-height: 1.2;
     font-family: 'raleway';
 }
+
+.header-list {
+    display: flex;
+    margin-right: 93px;
+}
+
+.header-item {
+    margin-right: 50px;
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
 .header-link {
     font-weight: 500;
     font-size: 14px;
@@ -76,6 +121,12 @@ button {
 
 
 
+
+.hero {
+    background-color: #2F303A;
+    height: 600px;
+}
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -84,6 +135,25 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    position: absolute;
+    margin-left: 482px;
+    margin-top: 200px;
+}
+.hero-btn {
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 360px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    justify-content: center;
 }
 
 .hero-btn {
@@ -100,6 +170,26 @@ button {
 
 
 
+.about {
+    width: 1170px;
+    height: 101px;
+}
+
+.about-title {
+    display: none;
+}
+
+.about-list {
+    display: flex;
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.about-item {
+    margin-right: 30px;
+}
+
 .about-third-title {
     font-weight: bold;
     font-size: 14px;
@@ -115,9 +205,17 @@ button {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    margin-top: 10px;
+    width: 270px;
+    height: 75px;
 }
 
 
+
+.reasons {
+    margin-top: 94px;
+    height: 386px;
+}
 
 .reasons-title {
     font-weight: bold;
@@ -126,9 +224,28 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    position: absolute;
+    margin-left: 612px;
+}
+
+.reasons-list {
+    display: flex;
+    margin-left: 215px;
+    margin-top: 50px;
+    position: absolute;
+    margin-top: 92px;
+}
+
+.reasons-item {
+    margin-right: 30px;
 }
 
 
+.masters {
+    height: 648px;
+    margin-top: 94px;
+    background-color:#F5F4FA;
+}
 
 .masters-title {
     font-weight: bold;
@@ -137,6 +254,18 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    padding-top: 94px;
+}
+
+.maters-list {
+    display: flex;
+    position: absolute;
+    margin-left: 215px;
+    padding-top: 50px;
+}
+
+.masters-item {
+    margin-right: 30px;
 }
 
 .masters-third-title {
@@ -163,6 +292,8 @@ button {
 
 .footer {
     background-color: #2F303A;
+    height: 252px;
+    padding-top: 60px;
 }
 
 .footer-logo {
@@ -172,7 +303,8 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logo-hover-color);
-}
+    margin-left: 215px;
+    }
 
 .footer-studio {
     font-family: Raleway;
@@ -183,6 +315,14 @@ button {
     color: var(--main-title-color)
 }
 
+.footer-address-list {
+    margin-left: 215px;
+    margin-top: 20px;
+}
+
+.footer-address-item {
+    margin-bottom: 9px;
+}
 .footer-address-map {
     font-weight: normal;
     font-style: normal;
@@ -223,6 +363,24 @@ button {
 /*portfolio*/
 
 
+.content {
+    height: 1300px;
+}
+
+.content-title {
+    display: none;
+}
+
+.content-list {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 495px;
+}
+
+.content-item {
+    margin-right: 8px;
+
+}
 .content-btn {
     font-weight: 500;
     font-size: 16px;
@@ -231,11 +389,23 @@ button {
     letter-spacing: 0.03em;
     color: var(--second-title-color);
     background-color: #F5F4FA;
-    border-radius: 4px;
+    border: none;
+    padding: 6px 22px 6px 22px;
 }
 .content-btn:hover {
     color: var(--main-title-color);
     background-color: var(--logo-hover-color);
+}
+
+.second-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 215px;
+}
+
+.second-content-item {
+    margin-right: 30px;
 }
 
 .second-content-title {
@@ -244,6 +414,8 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--second-title-color);
+    padding-top: 20px;
+    padding-left: 24px;
     }
 
 .second-content-text {
@@ -252,4 +424,6 @@ button {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    padding-left: 24px;
+    padding-top: 4px;
 }
