@@ -29,7 +29,7 @@ button {
 }
 
 .conteiner {
-    width: 1600px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -56,8 +56,6 @@ button {
 
 .header-address {
     display: flex;
-    margin-left: auto;
-    margin-left: 331px;
 }
 
 .header-address-item {
@@ -73,8 +71,7 @@ button {
     font-size: 26px;
     line-height: 1.2;
     font-family: 'raleway';
-    margin-right: 93px;
-    margin-left: 215px;
+    margin-right: 70px;
 }
 .header-studio {
     color: var(--second-title-color);
@@ -86,11 +83,11 @@ button {
 
 .header-list {
     display: flex;
-    margin-right: 93px;
+    margin-right: 331px;
 }
 
 .header-item {
-    margin-right: 50px;
+    margin-right: 37px;
 }
 
 .header-item:last-child {
@@ -121,10 +118,16 @@ button {
 
 
 
-
 .hero {
     background-color: #2F303A;
-    height: 600px;
+}
+
+
+.hero-conteiner {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .hero-title {
@@ -135,25 +138,13 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    position: absolute;
-    margin-left: 482px;
-    margin-top: 200px;
+    padding-top: 200px;
+    padding-bottom: 30px;
 }
-.hero-btn {
-    background-color: #2196F3;
-    width: 200px;
-    height: 50px;
-    margin-left: 700px;
-    margin-top: 360px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--main-title-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    justify-content: center;
+
+.hero-btn-position {
+    padding-bottom: 200px;
+
 }
 
 .hero-btn {
@@ -166,13 +157,22 @@ button {
     display: flex;
     align-items: center;
     color: var(--main-title-color);
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    justify-content: center;
+    margin: auto;
 }
 
 
 
-.about {
+.about-conteiner {
     width: 1170px;
-    height: 101px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
 }
 
 .about-title {
@@ -181,13 +181,14 @@ button {
 
 .about-list {
     display: flex;
-    margin-top: 94px;
-    margin-left: 215px;
-    margin-right: 215px;
+    margin: 0 auto;
 }
 
 .about-item {
-    margin-right: 30px;
+    margin-right: 20px;
+}
+.about-item:last-child {
+    margin-right: 0;
 }
 
 .about-third-title {
@@ -213,8 +214,10 @@ button {
 
 
 .reasons {
-    margin-top: 94px;
-    height: 386px;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
 }
 
 .reasons-title {
@@ -224,16 +227,14 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
-    position: absolute;
-    margin-left: 612px;
+
 }
 
 .reasons-list {
     display: flex;
-    margin-left: 215px;
-    margin-top: 50px;
-    position: absolute;
-    margin-top: 92px;
+    padding-top: 50px;
+    margin: 0 auto;
+
 }
 
 .reasons-item {
@@ -242,9 +243,12 @@ button {
 
 
 .masters {
-    height: 648px;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 94px;
-    background-color:#F5F4FA;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;;
 }
 
 .masters-title {
@@ -259,13 +263,14 @@ button {
 
 .maters-list {
     display: flex;
-    position: absolute;
-    margin-left: 215px;
     padding-top: 50px;
+    margin: 0 auto;
 }
 
 .masters-item {
-    margin-right: 30px;
+    margin-right: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .masters-third-title {
@@ -275,6 +280,7 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    padding-top: 30px;
 }
 
 .maters-text {
@@ -284,6 +290,8 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 
@@ -292,8 +300,11 @@ button {
 
 .footer {
     background-color: #2F303A;
-    height: 252px;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
