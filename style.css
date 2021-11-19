@@ -375,7 +375,10 @@ border-radius: 0px 0px 4px 4px;
 
 
 .content {
-    height: 1300px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
 }
 
 .content-title {
@@ -384,13 +387,15 @@ border-radius: 0px 0px 4px 4px;
 
 .content-list {
     display: flex;
-    margin-top: 100px;
-    margin-left: 495px;
+    padding-top: 100px;
+    margin-left: 300px;
 }
 
 .content-item {
     margin-right: 8px;
-
+}
+..content-item:last-child {
+    margin-right: 0;
 }
 .content-btn {
     font-weight: 500;
@@ -411,8 +416,8 @@ border-radius: 0px 0px 4px 4px;
 .second-content {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-left: 215px;
+    margin: 0 auto;
+    padding-top: 56px;
 }
 
 .second-content-item {
