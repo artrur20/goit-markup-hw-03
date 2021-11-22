@@ -35,6 +35,11 @@ button {
     margin: 0 auto;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-content: center;
+}
 
 .list {
     list-style: none;
@@ -42,6 +47,10 @@ button {
 
 .link {
     text-decoration: none;
+}
+
+.header {
+    border: 1px solid #ECECEC;
 }
 
 .heder-nav {
@@ -129,8 +138,8 @@ button {
 
 
 .hero-conteiner {
-   padding-top: 200px;
-   padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -165,13 +174,6 @@ button {
 }
 
 
-
-.about-conteiner {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    justify-content: center;
-    
-}
 
 .about-title {
     display: none;
@@ -209,11 +211,6 @@ button {
     height: 75px;
 }
 
-
-.reasons-conteiner {
-    align-items: center;
-}
-
 .reasons-title {
     font-weight: bold;
     font-size: 36px;
@@ -221,7 +218,6 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
-
 }
 
 .reasons-list {
@@ -241,10 +237,6 @@ button {
     background-color: #F5F4FA;;
 }
 
-.masters-conteiner {
-    margin-top: 94px;
-    padding-bottom: 94px;
-}
 
 .masters-title {
     font-weight: bold;
@@ -253,7 +245,6 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
-    padding-top: 94px;
 }
 
 .maters-list {
@@ -331,6 +322,10 @@ border-radius: 0px 0px 4px 4px;
 .footer-address-item {
     margin-bottom: 9px;
 }
+.footer-address-item:last-child {
+    margin-bottom: 0;
+}
+
 .footer-address-map {
     font-weight: normal;
     font-style: normal;
@@ -371,21 +366,13 @@ border-radius: 0px 0px 4px 4px;
 /*portfolio*/
 
 
-.content {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 94px;
-}
-
 .content-title {
     display: none;
 }
 
 .content-list {
     display: flex;
-    padding-top: 100px;
-    margin-left: 300px;
+    justify-content: center;
 }
 
 .content-item {
@@ -413,12 +400,14 @@ border-radius: 0px 0px 4px 4px;
 .second-content {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    padding-top: 56px;
+    margin-top: 50px;
 }
 
 .second-content-item {
     margin-right: 30px;
+}
+.second-content-item:last-child {
+    margin-right: 0;
 }
 
 .second-content-title {
@@ -427,8 +416,6 @@ border-radius: 0px 0px 4px 4px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--second-title-color);
-    padding-top: 20px;
-    padding-left: 24px;
     }
 
 .second-content-text {
@@ -437,6 +424,10 @@ border-radius: 0px 0px 4px 4px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
-    padding-left: 24px;
-    padding-top: 4px;
+    margin-bottom: 4px;
 }
+
+.card-item {
+    padding: 20px 24px 20px 24px;
+}
+
