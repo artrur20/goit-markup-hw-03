@@ -400,11 +400,12 @@ border-radius: 0px 0px 4px 4px;
 .second-content {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .second-content-item {
     margin-right: 30px;
+    margin-top: 30px;
 }
 .second-content-item:last-child {
     margin-right: 0;
@@ -429,5 +430,6 @@ border-radius: 0px 0px 4px 4px;
 
 .card-item {
     padding: 20px 24px 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
